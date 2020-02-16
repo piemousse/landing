@@ -1,0 +1,163 @@
+.background-img {
+  background-image:     linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url("fond-vtt.jpg");
+  min-height: 600px; 
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+	background: #F7F9FC;
+	color: #575F7D;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 17px;
+	font-weight: lighter;
+	margin: 0;
+}
+.card{
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0,0,0,.125);
+	border-radius: .25rem;
+}
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 1.25rem;
+}
+h1, h2, h3 {
+	font-family: 'Noto Sans HK', sans-serif;
+}
+h1{
+	color: #575F7D;
+	font-size: 32px;
+}	
+h2{
+	color: #7ECE90
+	font-size: 24px;
+	font-weight: lighter;
+}
+a{
+	text-decoration: none;
+	color: #6B72E1
+	font-weight: bold;
+}
+a:hover {
+	color: black;
+}
+}
+/*custom design with class (99% of your design) */
+.container {
+	width: 700px
+	margin: 40px auto
+
+}
+
+@media (max-width: 760px){
+	.container{
+		width: 600px
+	}
+}
+
+
+@media (max-width: 500px){
+	.container{
+		width: 400px
+	}
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 40px
+}
+
+.img {
+	height:140px;
+	border-radius:90px;
+}
+
+.btn {
+	color: #fff;
+	background-color:#0062cc;
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid #0062cc;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn:hover {
+	cursor: pointer;
+	color:#fff;
+	background-color:#093c8f;
+	border-color:#093c8f;
+}
+
+.btn:focus {
+	box-shadow: 0 0 0 .2rem #093c8f;
+}
+
+.icon{
+	height:50px;
+}
+.color-dark {
+	color: #343a40;
+}
+.color-blue {
+	color: #093c8f;
+}
+
+.imgmotogp {
+	height: 40px;
+	vertical-align: middle;
+}
+
+.formule1 {
+	height: 75px;
+	vertical-align: middle;
+}	
+
+.scroll-down {
+	position: absolute;
+	color: white;
+	top:515px;
+	left:calc(50% - 194.55px/2);
+	text-align: center;
+}
+
+.row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-top: 40px;
+}
+.foot-bar {
+	background-color: #343a40;
+	color: white;
+	width: 100%;
+	height: 150px;
+}
